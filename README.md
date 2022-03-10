@@ -17,18 +17,18 @@
 ***
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2022?style=plastic)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/AnthonyVTdev/TheGiveawayBot)
-![GitHub repo size](https://img.shields.io/github/repo-size/AnthonyVTdev/TheGiveawayBot)
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/AnthonyVTdev/TheGiveawayBot/discord.js)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/AnthonyVanTonder/TheGiveawayBot)
+![GitHub repo size](https://img.shields.io/github/repo-size/AnthonyVanTonder/TheGiveawayBot)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/AnthonyVanTonder/TheGiveawayBot/discord.js)
 ![Discord Support](https://img.shields.io/discord/889487066440818690?label=Discord%20Support&labelColor=FFFFF&style=plastic&logo=Discord&link=https://discord.gg/ZAzGRFTv59&link=https://discord.gg/ZAzGRFTv59)
-[![Run on Repl.it](https://repl.it/badge/github/AnthonyVTdev/TheGiveawayBot)](https://repl.it/github/AnthonyVTdev/TheGiveawayBot)
-[![Contributors](https://img.shields.io/github/contributors/AnthonyVTdev/TheGiveawayBot?label=Contributors&color=yellow)](https://github.com/AnthonyVTdev/TheGiveawayBot/graphs/contributors)
-[![LICENSE](https://img.shields.io/github/license/AnthonyVTdev/TheGiveawayBot?label=License&color=blueviolet)](https://github.com/AnthonyVTdev/TheGiveawayBot/blob/main/LICENSE)
+[![Run on Repl.it](https://repl.it/badge/github/AnthonyVanTonder/TheGiveawayBot)](https://repl.it/github/AnthonyVanTonder/TheGiveawayBot)
+[![Contributors](https://img.shields.io/github/contributors/AnthonyVanTonder/TheGiveawayBot?label=Contributors&color=yellow)](https://github.com/AnthonyVanTonder/TheGiveawayBot/graphs/contributors)
+[![LICENSE](https://img.shields.io/github/license/AnthonyVanTonder/TheGiveawayBot?label=License&color=blueviolet)](https://github.com/AnthonyVanTonder/TheGiveawayBot/blob/main/LICENSE)
 
 ***
 
 ## [**DISCORD SUPPORT SERVER INVITE**](https://anthonyvantonder.wordpress.com/discord)
-> 💪 **Host on Repit:** [**Repl.it Fork**](https://replit.com/github/AnthonyVTdev/TheGiveawayBot)
+> 💪 **Host on Repit:** [**Repl.it Fork**](https://replit.com/github/AnthonyVanTonder/TheGiveawayBot)
 
 ***
 
@@ -74,6 +74,6 @@ Copyright 2021 © All RIghts are Reserved | If you are using any part of code pl
 
 # License
 **Creative Commons  Zero v1.0 Universal**
-[View the license here](https://github.com/AnthonyVTdev/TheGiveawayBot/blob/main/LICENSE)
+[View the license here](https://github.com/AnthonyVanTonder/TheGiveawayBot/blob/main/LICENSE)
 
 ***
