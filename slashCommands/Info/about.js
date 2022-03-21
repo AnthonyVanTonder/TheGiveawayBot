@@ -13,7 +13,7 @@ module.exports = {
         .addFields(
             {
                 name: 'Hold giveaways quickly and easily!',
-                value: 'Hello! Im **TheGiveawayBot**, and Im here to make it as easy as possible to hold giveaways on your Discord server! I was created by [Anthony van Tonder#2056](<https://github.com/AnthonyVTdev>) (<@853462855784464416>). Check out my commands by typing `/info-help`, and checkout my website at: https://thegiveawaybot.wordpress.com/.'
+                value: 'Hello! Im **TheGiveawayBot**, and Im here to make it as easy as possible to hold giveaways on your Discord server! I was created by [Anthony van Tonder#2056](<https://anthonyvantonder.wordpress.com/>) (<@853462855784464416>). Check out my commands by typing `/info-help`, and checkout my website at: https://thegiveawaybot.wordpress.com/.'
             }
         )
         .setTimestamp()
