@@ -12,10 +12,11 @@ module.exports = {
 			.addField('**Latency**', `\`${Date.now() - interaction.createdTimestamp}ms\``)
 			.addField('**API Latency**', `\`${Math.round(client.ws.ping)}ms\``)
 			.setTimestamp()
-			.setFooter(`${interaction.user.username}`, interaction.user.avatarURL());
+			.setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL());
         interaction.reply({
           embeds: [pembed]
         });
     },
 };
+
 //Bot Coded by AnthonyVTdev Pleas Give Me Credits If Used Thank You
