@@ -9,7 +9,7 @@ module.exports = {
     description: 'Start a giveaway',
     cooldown: 0,
     userPermissions: ["MANAGE_MESSAGES"],
-    botPermissions: ["MANAGE_MESSAGES"],
+    botPermissions: [""],
     // toggleOff: true,
     options: [{
             name: "start",
