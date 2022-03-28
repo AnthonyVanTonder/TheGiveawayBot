@@ -1,4 +1,4 @@
-//Bot Coded by AnthonyVTdev Give Me Credits If Used Thank You
+//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
 
 const { MessageEmbed } = require('discord.js');
 
@@ -18,5 +18,3 @@ module.exports = {
         await interaction.reply({ embeds: [statsembed] });
     }
 }
-
-//Bot Coded by AnthonyVTdev Give Me Credits If Used Thank You
