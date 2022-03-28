@@ -1,4 +1,4 @@
-//Bot Coded by AnthonyVTdev Pleas Give Me Credits If Used Thank You
+//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
 
 const { MessageEmbed } = require('discord.js');
 
@@ -19,5 +19,3 @@ You can add me to your server with this link:\n\n🔗 https://thegiveawaybot.wor
         await interaction.reply({ embeds: [statsembed] });
     }
 }
-
-//Bot Coded by AnthonyVTdev Pleas Give Me Credits If Used Thank You
