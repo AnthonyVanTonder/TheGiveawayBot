@@ -1,4 +1,4 @@
-//Bot Coded by AnthonyVTdev Pleas Give Me Credits If Used Thank You
+//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
 
 const { MessageEmbed } = require("discord.js")
 
@@ -28,5 +28,3 @@ module.exports = {
         });
     },
 };
-
-//Bot Coded by AnthonyVTdev Pleas Give Me Credits If Used Thank You
