@@ -26,7 +26,7 @@ module.exports = {
       let statsembed = new MessageEmbed()
          .setColor("#FF4900")
             .setAuthor(client.user.tag, client.user.displayAvatarURL())
-            .setDescription(`[Website](https://thegiveawaybot.wordpress.com/) ● [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=347232&scope=applications.commands%20bot) ● [Support Server](https://discord.gg/rRzrmgm8c3)`)
+            .setDescription(`[Website](https://thegiveawaybot.wordpress.com/) ● [Invite](https://thegiveawaybot.wordpress.com/invite/) ● [Support Server](https://thegiveawaybot.wordpress.com/discord)`)
             .setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL())
         .addFields(
             {
