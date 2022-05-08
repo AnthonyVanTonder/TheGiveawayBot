@@ -5,10 +5,10 @@ const { MessageEmbed } = require('discord.js');
 const feroms = require('fero-ms');
 
 module.exports = {
-   name: 'info-stats',
+   name: 'stats',
    description: 'Sends bot physical statistics',
    run: async(client, interaction) => {
-      let totalSeconds = interaction.client.uptime / 1000;
+     let totalSeconds = interaction.client.uptime / 1000;
         let days = Math.floor(totalSeconds / 86400);
             totalSeconds %= 86400;
         let hours = Math.floor(totalSeconds / 3600);
@@ -26,7 +26,7 @@ module.exports = {
       let statsembed = new MessageEmbed()
          .setColor("#FF4900")
             .setAuthor(client.user.tag, client.user.displayAvatarURL())
-            .setDescription(`[Website](https://thegiveawaybot.wordpress.com/) ● [Invite](https://thegiveawaybot.wordpress.com/invite/) ● [Support Server](https://thegiveawaybot.wordpress.com/discord)`)
+            .setDescription(`[Website](https://thegiveawaybot.wordpress.com/) ● [Invite](https://thegiveawaybot.wordpress.com/invite/) ● [Support Server](https://thegiveawaybot.wordpress.com/discord/)`)
             .setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL())
         .addFields(
             {
@@ -51,7 +51,7 @@ module.exports = {
             },
             {
                 name: '⚙️ • **Slash Commands**',
-                value: `Total:${client.slashCommands.size}`,
+                value: `Total: ${client.slashCommands.size}`,
                 inline: true
             },
             {
@@ -60,7 +60,7 @@ module.exports = {
                 inline: true
             },
             {
-                name: '🚓 • **Node Version**',
+                name: '🚓 • **Node.js**',
                 value: `${process.version}`,
                 inline: true
             },
@@ -94,3 +94,5 @@ module.exports = {
         await interaction.reply({ embeds: [statsembed] });
     }
 }
+
+//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
