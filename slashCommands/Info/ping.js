@@ -1,9 +1,9 @@
-//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
+//Bot Coded by Anthony van Tonder Pleas Give Me Credits If Used Thank You
 
 const { MessageEmbed } = require("discord.js")
 
 module.exports = {
-    name: 'info-ping',
+    name: 'ping',
     description: 'Check my ping!',
     run: async (client, interaction) => {
       let pembed = new MessageEmbed()
@@ -28,3 +28,5 @@ module.exports = {
         });
     },
 };
+
+//Bot Coded by Anthony van Tonder Pleas Give Me Credits If Used Thank You
