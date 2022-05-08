@@ -1,9 +1,9 @@
-//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
+//Bot Coded by Anthony van Tonder Pleas Give Me Credits If Used Thank You
 
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-    name: 'info-feedback',
+    name: 'feedback',
     description: 'Send me feedback (can include bugs/problems)',
 
     options: [
@@ -66,3 +66,5 @@ module.exports = {
    }
 
 };
+
+//Bot Coded by Anthony van Tonder Pleas Give Me Credits If Used Thank You
