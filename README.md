@@ -46,14 +46,6 @@
   
 ***
 
-# Features
-## Featuring | Slash Commands 
-![Example](https://i.imgur.com/yYj7rkj.jpg)
-### Interactive Giveaway Creation
-![Create](https://i.imgur.com/pAnTFw4.jpg)
-
-***
-
 ## [Discord Server 😎](https://www.anthonyvantonder.wordpress.com/discord) | [Website](https://www.anthonyvantonder.wordpress.com)
 
 <a href="https://anthonyvantonder.wordpress.com/discord"><img src="https://discord.com/api/guilds/889487066440818690/widget.png?style=banner2"></a>
