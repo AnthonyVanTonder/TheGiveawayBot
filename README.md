@@ -9,7 +9,7 @@
 [![Contributors](https://img.shields.io/github/contributors/AnthonyVanTonder/TheGiveawayBot?label=Contributors&color=yellow)](https://github.com/AnthonyVanTonder/TheGiveawayBot/graphs/contributors)
 [![LICENSE](https://img.shields.io/github/license/AnthonyVanTonder/TheGiveawayBot?label=License&color=blueviolet)](https://github.com/AnthonyVanTonder/TheGiveawayBot/blob/main/LICENSE)
 
-Hold giveaways quickly and easily on your Discord server!
+Hold giveaways quickly and easily on your Discord server! Written In [Discord.js](https://discord.js.org) v13.5.0 and [Node.js](https://nodejs.org/ v16.13.1.
 
 ![Example](https://i.imgur.com/pAnTFw4.jpg)
 
@@ -17,7 +17,7 @@ Hold giveaways quickly and easily on your Discord server!
 If you'd like to add **TheGiveawayBot** to your server, use the following link:<br>
 🔗 **https://thegiveawaybot.wordpress.com/invite**
 
-# Commands
+# Usage
 
 ```
 TheGiveawayBot commands:
@@ -60,10 +60,5 @@ Do not include <> nor [] - <> means required and [] means optional.
 # Suggests, Bugs, Feature Requests
 If you find bugs or would like to suggest features, join my bot development server here: https://discord.gg/ZAzGRFTv59
 
-# Selfhosting
-
-You may selfhost (AKA run your own instance of) this bot under the following circumstances:
-- Your instance (referred to as a "clone") must be **private**.
-    - As such, your clone must not be listed on any sort of public bot listing.
-- You understand that no support will be provided to aid you in self-hosting.
-- You agree to not submit any issues, features, or pull requests related to bugs exclusively related to self-hosting.
+# Self-Hosting
+Self-hosting your own copy of this bot is not supported; the source code is provided here so users and other bot developers can see how the bot functions. No help will be provided for editing, compiling, or building any code in this repository, and any changes must be documented as per the [license](https://github.com/jagrosh/GiveawayBot/blob/master/LICENSE).
