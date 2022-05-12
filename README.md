@@ -10,7 +10,7 @@
 [![LICENSE](https://img.shields.io/github/license/AnthonyVanTonder/TheGiveawayBot?label=License&color=blueviolet)](https://github.com/AnthonyVanTonder/TheGiveawayBot/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/AnthonyVanTonder/TheGiveawayBot.svg)](https://github.com/AnthonyVanTonder/TheGiveawayBot/stargazers)
 
-Hold giveaways quickly and easily on your Discord server! Written In [Discord.js](https://discord.js.org) v13.5.0 and [Node.js](https://nodejs.org/ v16.13.1.
+Hold giveaways quickly and easily on your Discord server! Written In [Discord.js](https://discord.js.org) v13.5.0 and [Node.js](https://nodejs.org) v16.13.1.
 
 ![Example](https://i.imgur.com/pAnTFw4.jpg)
 
