@@ -25,16 +25,21 @@ TheGiveawayBot commands:
 /about - shows info about the bot
 /invite - shows how to invite the bot
 /ping - checks the bot's latency
- /help - Shows you Help for The Test Boat
+ /help - Shows you Help for TheGiveawayBot
 /commands - View all the commands available to the bot!
 /feedback [content] - Send me feedback. (can include bugs/problems)
 /stats - Sends bot physical statistics.
+/support - Gets a link to my support guild!
 
 Giveaway:
 
 /giveaway start [time] [winners] [prize] [#channel] - starts a giveaway (quick setup)
 /giveaway end [messageId] - ends (picks a winner for) the specified or latest giveaway in the current channel.
 /giveaway reroll [messageId] - re-rolls the specified or latest giveaway in the current channel.
+/giveaway edit [messageId] - allows you do edit your giveaway that you have hosted.
+/giveaway delete - Delete a giveaway that have been made.
+/giveaway resume [messageId] - Resume a paused giveaway.
+/giveaway pause [messageId] - Pause active giveaways on the server.
 /giveaway-list - lists active giveaways on the server.
 
 Do not include <> nor [] - <> means required and [] means optional.
