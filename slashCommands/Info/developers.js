@@ -3,7 +3,7 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-   name: 'info-developers',
+   name: 'gdevelopers',
    description: 'Shows The Developers Of TheGiveawayBot',
    run: async(client, interaction) => {
       
