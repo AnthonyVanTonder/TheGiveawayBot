@@ -5,12 +5,12 @@ const {
 const ms = require("ms");
 
 module.exports = {
-    name: 'giveaway',
+    name: 'g',
     description: 'Start a giveaway',
     cooldown: 0,
     userPermissions: ["MANAGE_MESSAGES"],
     botPermissions: [""],
-    // toggleOff: true,
+    toggleOff: false,
     options: [{
             name: "start",
             description: "Start a giveaway",
