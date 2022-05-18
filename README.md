@@ -59,7 +59,7 @@ Do not include <> nor [] - <> means required and [] means optional.
  **5.** start the bot with **`npx node bot.js`**!
 
 # Suggests, Bugs, Feature Requests
-If you find bugs or would like to suggest features, join my bot development server here: https://discord.gg/ZAzGRFTv59
+If you find bugs or would like to suggest features, join my bot development server here: https://thegiveawaybot.wordpress.com/discord
 
 # Self-Hosting
 Self-hosting your own copy of this bot is not supported; the source code is provided here so users and other bot developers can see how the bot functions. No help will be provided for editing, compiling, or building any code in this repository, and any changes must be documented as per the [license](https://github.com/AnthonyVanTonder/TheGiveawayBot/blob/master/LICENSE).
