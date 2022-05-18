@@ -3,19 +3,19 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-   name: 'commands',
+   name: 'gcommands',
    description: 'View all the commands available to the bot!',
+   toggleOff: false,
    run: async(client, interaction) => {
 
       let statsembed = new MessageEmbed()
-         .setColor("#FF4900")
-            .setThumbnail(`${client.user.displayAvatarURL()}`)
-            .setTitle("TheGiveawayBot Commands Menu")
-            .setURL("https://thegiveawaybot.wordpress.com/")
-            .setImage(`https://th.bing.com/th/id/R.8ed86edb03d994d8d72b007cd816da53?rik=KazBFcLLg53rcw&riu=http%3a%2f%2fwww.willbakeforbooks.com%2fwp-content%2fuploads%2f2015%2f04%2fgiveaway.jpg&ehk=DwX1GSlXH0WhNHRy2HtROaJGhbXDFi8C58YfJm7Twjg%3d&risl=&pid=ImgRaw&r=0`)
-            .setDescription(`\n\n**Here are the Info commands:**\n\n\`/help\` - Shows you Help for TGB\n\`/commands\` - View all the commands available to the bot!\n\`/invite\` - Invite the bot to your server!\n\`/ping\` - Check the bot’s websocket latency!\n\`/stats\` - Sends bot physical statistics.\n\`/feedback\` - Send me feedback (can include bugs/problems)\n\`/about\` - Shows info about the bot.\n\`/vote\` - Vote For The Bot On Top.gg.\n\n**Here are the Giveaways commands:**\n\n\`/giveaway start\` - Start a giveaway\n\`‎/giveaway end\` - End an already running giveaway\n\`/giveaway reroll\` - Reroll a giveaway\n\`/giveaway edit\` - Edit a giveaway\n\`/giveaway delete\` - Delete a giveaway\n\`/giveaway resume\` - Resume a paused giveaway\n\`/giveaway pause\` - Pause a giveaway\n\`/giveaway-list\` - List all the active giveaways for this server.\n\n`)
-            .setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL())
+      .setColor("#FF4900")      
+      .setThumbnail(`${client.user.displayAvatarURL()}`)
+      .setDescription(`🎉 __**${client.user.username}** commands:__\n\n**/gabout** - shows info about the bot\n**/ginvite** - shows how to invite the bot\n**/gping** - checks the bot's latency\n **/ghelp** - Shows you Help for ${client.user.username}\n**/gcommands** - View all the commands available to the bot!\n**/gfeedback [content]** - Send me feedback. (can include bugs/problems)\n**/gstats** - Sends bot physical statistics.\n**/gsupport** - Gets a link to my support guild!\n\n**__Giveaway:__**\n\n**/g start [time] [winners] [prize] [#channel]** - starts a giveaway (quick setup)\n**/g end [messageId]** - ends (picks a winner for) the specified or latest giveaway in the current channel.\n**/g reroll [messageId]** - re-rolls the specified or latest giveaway in the current channel.\n/**g edit [messageId]** - allows you do edit your giveaway that you have hosted.\n**/g delete** - Delete a giveaway that have been made.\n**/g resume [messageId]** - Resume a paused giveaway.\n **/g pause [messageId]** - Pause active giveaways on the server.\n**/glist** - lists active giveaways on the server.\n\nDo not include <> nor [] - <> means required and [] means optional.`)
+            .setFooter(`Requested by ${interaction.user.username}`, interaction.user.displayAvatarURL())
             .setTimestamp()
-        await interaction.reply({ embeds: [statsembed] });
+        await interaction.reply({ embeds: [statsembed],
+        ephemeral: true 
+       });
     }
 }
