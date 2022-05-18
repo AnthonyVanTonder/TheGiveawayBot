@@ -3,8 +3,9 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-    name: 'feedback',
+    name: 'gfeedback',
     description: 'Send me feedback (can include bugs/problems)',
+    toggleOff: false,
 
     options: [
         {
@@ -61,7 +62,7 @@ module.exports = {
       )
       .setTimestamp()
       .setFooter(`Requested by ${interaction.user.username} | ${client.user.username}`, interaction.user.displayAvatarURL())
-      channel.send({ embeds: [aembed] });
+      channel.send({ embeds: [aembed]});
       
    }
 
