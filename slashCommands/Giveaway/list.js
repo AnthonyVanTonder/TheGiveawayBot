@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports = {
-  name: "giveaway-list",
+  name: "glist",
   description: "List all the active giveaways for this server.",
   // toggleOff: true,
   run: async (client, interaction) => {
