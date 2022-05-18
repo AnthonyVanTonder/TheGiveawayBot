@@ -1,10 +1,9 @@
-//Bot Coded by Anthony van Tonder Give Me Credits If Used Thank You
-
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 
 module.exports = {
-  name: "vote",
+  name: "gvote",
   description: "Vote for the bot on Top.gg!",
+  toggleOff: false,
   run: async (client, interaction) => {
     const row = new MessageActionRow().addComponents(
       new MessageButton()
@@ -12,7 +11,7 @@ module.exports = {
         .setStyle("LINK")
         .setURL(`https://top.gg/bot/${client.user.id}/vote`)
     );
-    let invite = new MessageEmbed()
+    let vote = new MessageEmbed()
       .setAuthor(`Vote on Top.gg`, client.user.avatarURL())
       .setTitle("Vote Link!")
       .setDescription(
@@ -21,9 +20,9 @@ module.exports = {
       .setColor("RANDOM")
       .setTimestamp()
       .setFooter(
-        `Requested by ${interaction.user.username} | ${client.user.username}`,
+        `Requested by ${interaction.user.tag} | ${client.user.username}`,
         interaction.user.displayAvatarURL()
       );
-    interaction.reply({ embeds: [invite], components: [row] });
+    interaction.reply({ embeds: [vote], components: [row] });
   },
 };
