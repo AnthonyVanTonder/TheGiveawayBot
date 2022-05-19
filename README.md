@@ -29,7 +29,6 @@ If you'd like to add **TheGiveawayBot** to your server, use the following link:<
 /ghelp - Shows you Help for TheGiveawayBot
 /gcommands - View all the commands available to the bot!
 /gfeedback [content] - Send me feedback. (can include bugs/problems)
-/gstats - Sends bot physical statistics.
 /gsupport - Gets a link to my support guild!
 
 Giveaway:
