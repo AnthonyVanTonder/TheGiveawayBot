@@ -53,7 +53,7 @@ const client = new Client({
     ],
     presence: {
         activities: [{
-            name: `/info-help`,
+            name: `/ghelp`,
             type: "PLAYING",
         }],
         status: "online"
