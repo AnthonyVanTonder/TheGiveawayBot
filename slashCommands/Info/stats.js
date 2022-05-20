@@ -5,7 +5,7 @@ const { MessageEmbed } = require('discord.js');
 const feroms = require('fero-ms');
 
 module.exports = {
-   name: 'stats',
+   name: 'gstats',
    description: 'Sends bot physical statistics',
    run: async(client, interaction) => {
      let totalSeconds = interaction.client.uptime / 1000;
