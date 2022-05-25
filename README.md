@@ -37,7 +37,7 @@ Giveaway:
 /g end [messageId] - ends (picks a winner for) the specified or latest giveaway in the current channel.
 /g reroll [messageId] - re-rolls the specified or latest giveaway in the current channel.
 /g edit [messageId] - allows you do edit your giveaway that you have hosted.
-/g delete - Delete a giveaway that have been made.
+/g delete [messageId] - Delete a giveaway that have been made.
 /g resume [messageId] - Resume a paused giveaway.
 /g pause [messageId] - Pause active giveaways on the server.
 /glist - lists active giveaways on the server.
