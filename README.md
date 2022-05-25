@@ -33,14 +33,14 @@ If you'd like to add **TheGiveawayBot** to your server, use the following link:<
 
 Giveaway:
 
-- **/g start [time] [winners] [prize] [#channel]** - starts a giveaway (quick setup)
-- **/g end [messageId]** - ends (picks a winner for) the specified or latest giveaway in the current channel.
-- **/g reroll [messageId]** - re-rolls the specified or latest giveaway in the current channel.
+- **/g start [time] [winners] [prize] [#channel]** - starts a giveaway with the provided number of seconds. For example, /g start 30s 2 Steam Code #giveaway would start a 30-second giveaway for a Steam Code with 2 winners in the #giveaway channel! To use minutes/hours/days/weeks/months instead of seconds, simply include an "m", "h", or "d" in the time ~ 3m would be a would be a 3-minute giveaway.
+- **/g end [messageId]** - ends the most recent giveaway in the current channel. If you want to end an older/more specific giveaway, use **/g end [messageId]**
+- **/g reroll [messageId]** - picks a new winner from the latest giveaway. If you want to reroll an older giveaway, you can use **/g reroll [messageId]**
 - **/g edit [messageId]** - allows you do edit your giveaway that you have hosted.
 - **/g delete [messageId]** - Delete a giveaway that have been made.
 - **/g resume [messageId]** - Resume a paused giveaway.
 - **/g pause [messageId]** - Pause active giveaways on the server.
-- **/glist** - lists active giveaways on the server.
+- **/glist** - lists all the currently-running giveaways on the server
 
 Do not include <> nor [] - <> means required and [] means optional.
 
