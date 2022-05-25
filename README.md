@@ -23,24 +23,24 @@ If you'd like to add **TheGiveawayBot** to your server, use the following link:<
 
 🎉 TheGiveawayBot commands:
 
-**/gabout** - shows info about the bot
-**/ginvite** - shows how to invite the bot
-**/gping** - checks the bot's latency
-**/ghelp** - Shows you Help for TheGiveawayBot
-**/gcommands** - View all the commands available to the bot!
-**/gfeedback** [content] - Send me feedback. (can include bugs/problems)
-**/gsupport** - Gets a link to my support guild!
+- **/gabout** - shows info about the bot
+- **/ginvite** - shows how to invite the bot
+- **/gping** - checks the bot's latency
+- **/ghelp** - Shows you Help for TheGiveawayBot
+- **/gcommands** - View all the commands available to the bot!
+- **/gfeedback** [content] - Send me feedback. (can include bugs/problems)
+- **/gsupport** - Gets a link to my support guild!
 
 Giveaway:
 
-**/g start [time] [winners] [prize] [#channel]** - starts a giveaway (quick setup)
-**/g end [messageId]** - ends (picks a winner for) the specified or latest giveaway in the current channel.
-**/g reroll [messageId]** - re-rolls the specified or latest giveaway in the current channel.
-**/g edit [messageId]** - allows you do edit your giveaway that you have hosted.
-**/g delete [messageId]** - Delete a giveaway that have been made.
-**/g resume [messageId]** - Resume a paused giveaway.
-**/g pause [messageId]** - Pause active giveaways on the server.
-**/glist** - lists active giveaways on the server.
+- **/g start [time] [winners] [prize] [#channel]** - starts a giveaway (quick setup)
+- **/g end [messageId]** - ends (picks a winner for) the specified or latest giveaway in the current channel.
+- **/g reroll [messageId]** - re-rolls the specified or latest giveaway in the current channel.
+- **/g edit [messageId]** - allows you do edit your giveaway that you have hosted.
+- **/g delete [messageId]** - Delete a giveaway that have been made.
+- **/g resume [messageId]** - Resume a paused giveaway.
+- **/g pause [messageId]** - Pause active giveaways on the server.
+- **/glist** - lists active giveaways on the server.
 
 Do not include <> nor [] - <> means required and [] means optional.
 
