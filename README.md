@@ -1,4 +1,4 @@
-# [TheGiveawayBot](https://thegiveawaybot.wordpress.com)
+# [TheGiveawayBot](https://thegiveawaybot.vercel.app)
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2022?style=plastic)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/AnthonyVanTonder/TheGiveawayBot)
