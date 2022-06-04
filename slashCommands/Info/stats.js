@@ -26,7 +26,7 @@ module.exports = {
       let statsembed = new MessageEmbed()
          .setColor("#FF4900")
             .setAuthor(client.user.tag, client.user.displayAvatarURL())
-            .setDescription(`[Website](https://thegiveawaybot.wordpress.com/) ● [Invite](https://thegiveawaybot.wordpress.com/invite/) ● [Support Server](https://thegiveawaybot.wordpress.com/discord/)`)
+            .setDescription(`[Website](https://thegiveawaybot.vercel.app) ● [Invite](https://thegiveawaybot.vercel.app/invite.html) ● [Support Server](https://thegiveawaybot.vercel.app/support.html)`)
             .setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL())
         .addFields(
             {
