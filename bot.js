@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const port = 3000
 
-app.get('/', (req, res) => res.send('Bot Is Working!! Bot Coded By Anthony van Tonder (AnthonyVTdev)'))
+app.get('/', (req, res) => res.send('Bot Is Working!! Bot Coded By Anthony van Tonder#2056'))
 
 app.listen(port, () =>
 console.log(`Your app is listening to http://localhost:${port}`)
