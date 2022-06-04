@@ -7,7 +7,7 @@ module.exports = {
   run: async (client, interaction) => {
     interaction.reply({
       content: `🎉 Hello! I'm TheGiveawayBot! I help to make giveaways quick and easy!
-You can add me to your server with this link:\n\n🔗 https://thegiveawaybot.wordpress.com/invite \n\nCheck out my commands by typing \`/gcommands\``,
+You can add me to your server with this link:\n\n🔗 https://thegiveawaybot.vercel.app/invite.html \n\nCheck out my commands by typing \`/gcommands\``,
      ephemeral: true
     });
   },
