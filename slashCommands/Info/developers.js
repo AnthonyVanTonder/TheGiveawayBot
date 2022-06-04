@@ -11,7 +11,7 @@ module.exports = {
          .setColor("#FF4900")
             .setThumbnail(`${client.user.displayAvatarURL()}`)
             .setTitle("TheGiveawayBot Developers")
-          .setURL("https://thegiveawaybot.wordpress.com/")
+          .setURL("https://thegiveawaybot.vercel.app")
             .setDescription(`[Anthony van Tonder](https://anthonyvantonder.wordpress.com/) - Web/Bot Developer`)
             .setFooter(`Thanks For Using ${client.user.username}`, client.user.displayAvatarURL())
         .setTimestamp()
