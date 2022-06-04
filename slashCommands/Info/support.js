@@ -6,7 +6,7 @@ module.exports = {
   toggleOff: false,
   run: async (client, interaction) => {
     interaction.reply({
-      content: `Here's a link to my support server: https://discord.gg/rRzrmgm8c3`,
+      content: `Here's a link to my support server: https://thegiveawaybot.vercel.app/support.html`,
      ephemeral: true
     });
   },
